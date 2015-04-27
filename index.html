@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>SpinBoard</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/layout.css" media="screen" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="assets/javascript/spinboard.js"></script>
+	</head>
+	<body>
+		<div class="l-wrapper">
+			<h1 class="e-w-title">SpinBoard</h1>
+			<div class="e-w-pages">
+				<div class="e-wp-page" data-page="main">
+					<p>Put instructions here</p>
+					<div class="e-wpp-options js-options"></div>
+					<a class="e-wpp-button js-option-add" href="">Add Option</a>
+					<a class="e-wpp-button js-continue" href="">Continue</a>
+				</div>
+				<div class="e-wp-page" data-page="option_add">
+					<h2 class="e-wpp-title">Add Option</h2>
+					<div class="e-wpp-form">
+						<div class="e-wppf-field">
+							<div class="e-wppff-label"><label for="option-name">Name</label></div>
+							<div class="e-wppff-element">
+								<select class="e-wppf--select js-option-name" id="option-name"></select>
+							</div>
+						</div>
+						<div class="e-wppf-field js-option-custom-name-field">
+							<div class="e-wppff-label"><label for="option-custom-name">Custom Name</label></div>
+							<div class="e-wppff-element"><input type="text" id="option-custom-name" class="e-wppf--input-text js-option-custom-name" value="" /></div>
+						</div>
+						<div class="e-wpp-field t-last">
+							<div class="e-wppff-label"><label for="option-weight">Weight</label></div>
+							<div class="e-wppff-element"><input type="text" class="e-wppf--input-text js-option-weight" value="" /></div>
+						</div>
+					</div>
+					<a class="e-wpp-button js-add" href="">Add</a>
+					<a class="e-wpp-button js-back" href="">Back</a>
+				</div>
+				<div class="e-wp-page" data-page="board">
+					<div class="e-wpp-option-colors js-option-colors"></div>
+					<canvas class="e-wpp-canvas js-canvas"  width="300" height="300"></canvas>
+					<a class="e-wpp-button js-spin" href="">SPIN</a>
+				</div>
+				<div class="e-wp-page" data-page="winner">
+					<div class="e-wpp-winner">
+						<div class="e-wppw-title">Winner</div>
+						<div class="e-wppw-name js-winner-name"></div>
+					</div>
+					<a class="e-wpp-button js-retry" href="">Retry</a>
+					<a class="e-wpp-button js-reset" href="">Change Options</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,140 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Verdana','Arial',sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+p {
+	margin: 15px;
+	line-height: 125%;
+}
+.l-wrapper {
+	width: 300px;
+	margin: 30px auto;
+	padding: 30px;
+	background-color: #CCCCCC;
+}
+	.l-wrapper .e-w-title {
+		margin-bottom: 15px;
+		text-align: center;
+	}
+	.l-wrapper .e-w-pages {
+		overflow: hidden;
+	}
+		.l-wrapper .e-wp-page {
+			display: none;
+			text-align: center;
+		}
+			.l-wrapper .e-wpp-title {
+				margin-bottom: 15px;
+			}
+			.l-wrapper .e-wpp-options {
+				margin-bottom: 15px;
+			}
+				.l-wrapper .e-wppo-none {
+					font-style: italic;
+					text-align: center;
+				}
+				.l-wrapper .e-wppo-option {
+					margin-bottom: 1px;
+					background-color: #FFFFFF;
+				}
+					.l-wrapper .e-wppoo-name {
+						padding: 6px 12px;
+					}
+					.l-wrapper .e-wppoo-action {
+						display: block;
+						float: right;
+						padding: 6px 12px;
+						text-decoration: none;
+					}
+					.l-wrapper .e-wppoo-action.t-delete {
+						color: #FFFFFF;
+						background-color: #FF0000;
+					}
+					.l-wrapper .e-wppoo-clear {
+						clear: both;
+					}
+			.l-wrapper .e-wpp-form {}
+				.l-wrapper .e-wppf-field {
+					margin-bottom: 10px;
+				}
+				.l-wrapper .e-wppf-field.t-last {
+					margin-bottom: 0;
+				}
+					.l-wrapper .e-wppff-label {
+						margin-bottom: 5px;
+					}
+			.l-wrapper .e-wppf--input-text {
+				box-sizing: border-box;
+				width: 100%;
+				padding: 4px 8px;
+				font-size: 14px;
+				text-align: center;
+				border: none;
+			}
+			.l-wrapper .e-wppf--input-submit {
+				width: 100%;
+				padding: 6px 0;
+				color: #FFFFFF;
+				text-align: center;
+				background-color: #666666;
+				border: none;
+				cursor: pointer;
+			}
+			.l-wrapper .e-wppf--select {
+				width: 100%;
+				padding: 4px 8px;
+				font-size: 14px;
+				text-align: center;
+				border: none;
+			}
+			.l-wrapper .e-wpp-option-colors {
+				margin-bottom: 15px;
+			}
+				.l-wrapper .e-wppoc-option {
+					position: relative;
+					height: 30px;
+					margin-bottom: 1px;
+					background-color: #FFFFFF;
+				}
+					.l-wrapper .e-wppoco-color {
+						position: absolute;
+						top: 0;
+						left: 0;
+						width: 20px;
+						height: 30px;
+					}
+					.l-wrapper .e-wppoco-name {
+						padding: 7px 0 0 20px;
+						text-align: center;
+					}
+			.l-wrapper .e-wpp-canvas {
+				margin-bottom: 15px;
+			}
+			.l-wrapper .e-wpp-winner {
+				margin-bottom: 30px;
+			}
+				.e-wppw-title {
+					margin-bottom: 5px;
+					font-size: 12px;
+					text-align: center;
+				}
+				.e-wppw-name {
+					padding: 5px 10px;
+					font-size: 16px;
+					text-align: center;
+					background-color: #FFFFFF;
+				}
+			.l-wrapper .e-wpp-button {
+				display: block;
+				margin-top: 10px;
+				padding: 5px 10px;
+				color: #FFFFFF;
+				text-align: center;
+				text-decoration: none;
+				background-color: #333333;
+			}
